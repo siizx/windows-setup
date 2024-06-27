@@ -1,0 +1,34 @@
+https://droidwin.com/how-to-spoof-your-pc-to-a-samsung-galaxy-book/#Manual_Method
+
+- e' molto semplice. la guida dice che dopo aver effettuato i cambiamenti, per controllare la riuscita dello spoof, si dovrebbe riavviare il pc e controllare che i valori non siano stati cambiati. ma su macchina virtuale si resettano da soli ai valori originali.
+- Dovessero persistere al riavvio, basta riposrtare i valori allo stato originale, ovviamente. quindi fare backup.
+
+### MANUAL GUIDE ###
+
+Win+r --> regedit
+
+HKEY_LOCAL_MACHINE\HARDWARE\DESCRIPTION\System\BIOS
+
+- !!FARE BACKUP!! dei valori originali:
+SystemProductName: VMware20,1
+SystemManufacturer: VMware, Inc.
+
+- Valori da mettere
+SystemManufacturer: Samsung 
+SystemProductName: NP960XFG-KC4UK
+
+
+
+### SCRIPTS GUIDE ###
+
+- Run in POwershell as administrator:
+
+Set-ExecutionPolicy Unrestricted
+
+Set-ExecutionPolicy RemoteSigned
+
+- Run SCRIPT
+
+// per sicurezza ripristinare l'opzione originale
+Set-ExecutionPolicy Restricted
+
