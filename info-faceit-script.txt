@@ -1,0 +1,13 @@
+1. Set Execution Policy Permanently (System-Wide)
+Run PowerShell as Administrator and set:
+
+powershell
+Set-ExecutionPolicy RemoteSigned -Scope LocalMachine -Force
+LocalMachine applies the policy to all users (requires admin rights).
+
+RemoteSigned allows local scripts to run but requires downloaded scripts to be signed.
+
+Revert Later (If Needed)
+powershell
+Set-ExecutionPolicy Restricted -Force
+

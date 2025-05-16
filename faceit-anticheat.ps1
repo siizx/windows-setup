@@ -1,6 +1,6 @@
 # --- Config ---
-$anticheatPath = "C:\Path\To\FaceIT\anticheat.exe"
-$externalDrives = "E:", "F:"  # Add SSD letters
+$anticheatPath = "C:\Program Files\FACEIT AC\faceitclient.exe"
+$externalDrives = "D:" #, "F:"  # Add SSD letters
 
 # --- Check Drives ---
 $blockedDrive = $externalDrives | Where-Object { Test-Path $_ }
