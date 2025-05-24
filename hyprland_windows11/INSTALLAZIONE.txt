@@ -1,0 +1,30 @@
+GUIDA INSTALLAZIONE: Hyprland-like su Windows 11
+
+1. Requisiti:
+   - Windows 11
+   - AutoHotkey v2 (https://www.autohotkey.com/)
+   - (Opzionale) Explorer Patcher: https://github.com/valinet/ExplorerPatcher/releases : per mostrare tutti i programmi aperti in ogni taskpar di ogni workspace
+
+2. Funzionalità:
+   - Win + 1..9, 0 -> cambia workspace (desktop virtuale)
+   - Win + Shift + 1..9, 0 -> sposta finestra sul workspace
+   - Win + Q -> chiude finestra attiva
+   - Win + Enter -> apre Windows Terminal come admin
+   - I workspace vengono creati automaticamente
+
+3. Taskbar: mostrare finestre di tutti i desktop
+   - Installare ExplorerPatcher (https://github.com/valinet/ExplorerPatcher)
+   - Abilitare: Show all windows on all desktops
+
+4. Esecuzione automatica come Admin:
+   - Usa Task Scheduler:
+     - Nome: HyprlandAHK
+     - Triggers: At log on
+     - Actions: AutoHotkey64.exe con argomento: hyprland_windows.ahk
+     - "Run with highest privileges"
+
+5. Come installare su un altro PC:
+   - Installa AutoHotkey v2
+   - Scarica questa cartella
+   - Esegui lo script oppure configura Task Scheduler
+   - (Opzionale) Installa ExplorerPatcher (per visualizzare tutti i programmi aperti su ogni workspace
