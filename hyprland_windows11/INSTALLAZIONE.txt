@@ -3,7 +3,7 @@ GUIDA INSTALLAZIONE: Hyprland-like su Windows 11
 1. Requisiti:
    - Windows 11
    - AutoHotkey v2 (https://www.autohotkey.com/)
-   - (Opzionale) Explorer Patcher: https://github.com/valinet/ExplorerPatcher/releases : per mostrare tutti i programmi aperti in ogni taskpar di ogni workspace
+   - (Opzionale) Explorer Patcher (NOT WORKING in 2H24, testato il 24/5/25): https://github.com/valinet/ExplorerPatcher/releases : per mostrare tutti i programmi aperti in ogni taskpar di ogni workspace
 
 2. Funzionalità:
    - Win + 1..9, 0 -> cambia workspace (desktop virtuale)
