@@ -13,7 +13,9 @@
 }
 
 
-; === TERMINALE PRIVILEGIATO ===
+; === Binds to Execute Programs ===
+#b::Run("C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe")
+#c::Run("C:\\Users\\Andrea\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe")
 #Enter::Run("*RunAs wt.exe")
 
 ; === SWITCH TRA WORKSPACE ===
