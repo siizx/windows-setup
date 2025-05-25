@@ -1,0 +1,8 @@
+| Action                               | Shortcut                   |
+| ------------------------------------ | -------------------------- |
+| ➕ Create new desktop                 | `Win + Ctrl + D`           |
+| ❌ Close current desktop              | `Win + Ctrl + F4`          |
+| ⬅️ Switch to previous desktop        | `Win + Ctrl + Left Arrow`  |
+| ➡️ Switch to next desktop            | `Win + Ctrl + Right Arrow` |
+| 🧭 Show desktop overview (task view) | `Win + Tab`                |
+
